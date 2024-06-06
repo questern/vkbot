@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+vk:
+  #Default parameters
+  api-url: 'https://api.vk.com/'
+
+  #Required parameters
+  confirmation-token: '' #get from https://vk.com/*yourClub*?act=api
+  access-token: '' #get from https://vk.com/*yourClub*?act=tokens
+
+  #Optional parameters (updated automatically on callback confirmation)
+  api-version: '5.199'
+  group-id: ''
